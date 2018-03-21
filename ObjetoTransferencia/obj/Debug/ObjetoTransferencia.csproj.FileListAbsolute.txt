@@ -1,0 +1,5 @@
+C:\Users\Vinicius\Documents\estagio\ProjetoEstagio\SlnEstagio\ObjetoTransferencia\bin\Debug\SlnEstagio.ObjetoTransferencia.dll
+C:\Users\Vinicius\Documents\estagio\ProjetoEstagio\SlnEstagio\ObjetoTransferencia\bin\Debug\SlnEstagio.ObjetoTransferencia.pdb
+C:\Users\Vinicius\Documents\estagio\ProjetoEstagio\SlnEstagio\ObjetoTransferencia\obj\Debug\ObjetoTransferencia.csprojResolveAssemblyReference.cache
+C:\Users\Vinicius\Documents\estagio\ProjetoEstagio\SlnEstagio\ObjetoTransferencia\obj\Debug\SlnEstagio.ObjetoTransferencia.dll
+C:\Users\Vinicius\Documents\estagio\ProjetoEstagio\SlnEstagio\ObjetoTransferencia\obj\Debug\SlnEstagio.ObjetoTransferencia.pdb

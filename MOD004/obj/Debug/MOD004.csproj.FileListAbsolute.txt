@@ -1,0 +1,17 @@
+C:\Users\Vinicius\Documents\estagio\ProjetoEstagio\SlnEstagio\MOD004\bin\Debug\SlnEstagio.MOD004.dll
+C:\Users\Vinicius\Documents\estagio\ProjetoEstagio\SlnEstagio\MOD004\bin\Debug\SlnEstagio.MOD004.pdb
+C:\Users\Vinicius\Documents\estagio\ProjetoEstagio\SlnEstagio\MOD004\bin\Debug\SlnEstagio.MOD001.dll
+C:\Users\Vinicius\Documents\estagio\ProjetoEstagio\SlnEstagio\MOD004\bin\Debug\SlnEstagio.Negocio.dll
+C:\Users\Vinicius\Documents\estagio\ProjetoEstagio\SlnEstagio\MOD004\bin\Debug\SlnEstagio.ObjetoTransferencia.dll
+C:\Users\Vinicius\Documents\estagio\ProjetoEstagio\SlnEstagio\MOD004\bin\Debug\SlnEstagio.WINBASE.dll
+C:\Users\Vinicius\Documents\estagio\ProjetoEstagio\SlnEstagio\MOD004\bin\Debug\SlnEstagio.AcessoDados.dll
+C:\Users\Vinicius\Documents\estagio\ProjetoEstagio\SlnEstagio\MOD004\bin\Debug\SlnEstagio.MOD001.pdb
+C:\Users\Vinicius\Documents\estagio\ProjetoEstagio\SlnEstagio\MOD004\bin\Debug\SlnEstagio.Negocio.pdb
+C:\Users\Vinicius\Documents\estagio\ProjetoEstagio\SlnEstagio\MOD004\bin\Debug\SlnEstagio.ObjetoTransferencia.pdb
+C:\Users\Vinicius\Documents\estagio\ProjetoEstagio\SlnEstagio\MOD004\bin\Debug\SlnEstagio.WINBASE.pdb
+C:\Users\Vinicius\Documents\estagio\ProjetoEstagio\SlnEstagio\MOD004\bin\Debug\SlnEstagio.AcessoDados.pdb
+C:\Users\Vinicius\Documents\estagio\ProjetoEstagio\SlnEstagio\MOD004\obj\Debug\MOD004.csprojResolveAssemblyReference.cache
+C:\Users\Vinicius\Documents\estagio\ProjetoEstagio\SlnEstagio\MOD004\obj\Debug\SlnEstagio.MOD004.FRM001.resources
+C:\Users\Vinicius\Documents\estagio\ProjetoEstagio\SlnEstagio\MOD004\obj\Debug\MOD004.csproj.GenerateResource.Cache
+C:\Users\Vinicius\Documents\estagio\ProjetoEstagio\SlnEstagio\MOD004\obj\Debug\SlnEstagio.MOD004.dll
+C:\Users\Vinicius\Documents\estagio\ProjetoEstagio\SlnEstagio\MOD004\obj\Debug\SlnEstagio.MOD004.pdb

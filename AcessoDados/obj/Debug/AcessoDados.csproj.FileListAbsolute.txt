@@ -1,0 +1,5 @@
+C:\Users\Vinicius\Documents\estagio\ProjetoEstagio\SlnEstagio\AcessoDados\bin\Debug\SlnEstagio.AcessoDados.dll.config
+C:\Users\Vinicius\Documents\estagio\ProjetoEstagio\SlnEstagio\AcessoDados\bin\Debug\SlnEstagio.AcessoDados.dll
+C:\Users\Vinicius\Documents\estagio\ProjetoEstagio\SlnEstagio\AcessoDados\bin\Debug\SlnEstagio.AcessoDados.pdb
+C:\Users\Vinicius\Documents\estagio\ProjetoEstagio\SlnEstagio\AcessoDados\obj\Debug\SlnEstagio.AcessoDados.dll
+C:\Users\Vinicius\Documents\estagio\ProjetoEstagio\SlnEstagio\AcessoDados\obj\Debug\SlnEstagio.AcessoDados.pdb

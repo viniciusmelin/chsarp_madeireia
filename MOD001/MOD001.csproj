@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B472E6E2-97EB-410F-8DBA-6F0A01B00616}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SlnEstagio.MOD001</RootNamespace>
+    <AssemblyName>SlnEstagio.MOD001</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FRM001.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM001.Designer.cs">
+      <DependentUpon>FRM001.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM002.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM002.Designer.cs">
+      <DependentUpon>FRM002.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM003.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM003.Designer.cs">
+      <DependentUpon>FRM003.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM004.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM004.Designer.cs">
+      <DependentUpon>FRM004.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM005.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM005.Designer.cs">
+      <DependentUpon>FRM005.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM006.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM006.Designer.cs">
+      <DependentUpon>FRM006.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM007.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM007.Designer.cs">
+      <DependentUpon>FRM007.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM008.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM008.Designer.cs">
+      <DependentUpon>FRM008.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM009.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM009.Designer.cs">
+      <DependentUpon>FRM009.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM010.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM010.Designer.cs">
+      <DependentUpon>FRM010.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM011.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM011.Designer.cs">
+      <DependentUpon>FRM011.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM012.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM012.Designer.cs">
+      <DependentUpon>FRM012.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM013.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM013.Designer.cs">
+      <DependentUpon>FRM013.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM014.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM014.Designer.cs">
+      <DependentUpon>FRM014.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM015.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM015.Designer.cs">
+      <DependentUpon>FRM015.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM016.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM016.Designer.cs">
+      <DependentUpon>FRM016.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM017.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM017.Designer.cs">
+      <DependentUpon>FRM017.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM018.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM018.Designer.cs">
+      <DependentUpon>FRM018.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM019.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM019.Designer.cs">
+      <DependentUpon>FRM019.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM020.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM020.Designer.cs">
+      <DependentUpon>FRM020.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM021.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM021.Designer.cs">
+      <DependentUpon>FRM021.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM023.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM023.Designer.cs">
+      <DependentUpon>FRM023.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM024.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM024.Designer.cs">
+      <DependentUpon>FRM024.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM025.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM025.Designer.cs">
+      <DependentUpon>FRM025.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM026.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM026.Designer.cs">
+      <DependentUpon>FRM026.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM027.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM027.Designer.cs">
+      <DependentUpon>FRM027.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM028.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM028.Designer.cs">
+      <DependentUpon>FRM028.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM029.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM029.Designer.cs">
+      <DependentUpon>FRM029.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM030.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM030.Designer.cs">
+      <DependentUpon>FRM030.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM031.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM031.Designer.cs">
+      <DependentUpon>FRM031.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Negocio\Negocio.csproj">
+      <Project>{b79d6bf6-c3f5-4258-a030-784a38a57c06}</Project>
+      <Name>Negocio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ObjetoTransferencia\ObjetoTransferencia.csproj">
+      <Project>{e276ee25-9e96-45d3-8a8f-d84ddbcb46a7}</Project>
+      <Name>ObjetoTransferencia</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WINBASE\WINBASE.csproj">
+      <Project>{c1657b19-bb7f-436c-bcb7-b41e09e98e3e}</Project>
+      <Name>WINBASE</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FRM001.resx">
+      <DependentUpon>FRM001.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM002.resx">
+      <DependentUpon>FRM002.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM003.resx">
+      <DependentUpon>FRM003.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM004.resx">
+      <DependentUpon>FRM004.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM005.resx">
+      <DependentUpon>FRM005.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM006.resx">
+      <DependentUpon>FRM006.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM007.resx">
+      <DependentUpon>FRM007.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM008.resx">
+      <DependentUpon>FRM008.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM009.resx">
+      <DependentUpon>FRM009.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM010.resx">
+      <DependentUpon>FRM010.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM011.resx">
+      <DependentUpon>FRM011.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM012.resx">
+      <DependentUpon>FRM012.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM013.resx">
+      <DependentUpon>FRM013.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM014.resx">
+      <DependentUpon>FRM014.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM015.resx">
+      <DependentUpon>FRM015.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM016.resx">
+      <DependentUpon>FRM016.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM017.resx">
+      <DependentUpon>FRM017.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM018.resx">
+      <DependentUpon>FRM018.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM019.resx">
+      <DependentUpon>FRM019.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM020.resx">
+      <DependentUpon>FRM020.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM021.resx">
+      <DependentUpon>FRM021.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM023.resx">
+      <DependentUpon>FRM023.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM024.resx">
+      <DependentUpon>FRM024.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM025.resx">
+      <DependentUpon>FRM025.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM026.resx">
+      <DependentUpon>FRM026.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM027.resx">
+      <DependentUpon>FRM027.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM028.resx">
+      <DependentUpon>FRM028.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM029.resx">
+      <DependentUpon>FRM029.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM030.resx">
+      <DependentUpon>FRM030.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM031.resx">
+      <DependentUpon>FRM031.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

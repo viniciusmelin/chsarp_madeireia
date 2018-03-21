@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B79D6BF6-C3F5-4258-A030-784A38A57C06}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SlnEstagio.Negocio</RootNamespace>
+    <AssemblyName>SlnEstagio.Negocio</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NegCidade.cs" />
+    <Compile Include="NegCliente.cs" />
+    <Compile Include="NegContasPagar.cs" />
+    <Compile Include="NegContasPagarTipo.cs" />
+    <Compile Include="NegContasReceber.cs" />
+    <Compile Include="NegEmail.cs" />
+    <Compile Include="NegEndereco.cs" />
+    <Compile Include="NegEstoqueMovimentacao.cs" />
+    <Compile Include="NegFornecedor.cs" />
+    <Compile Include="NegModulo.cs" />
+    <Compile Include="NegOperacao.cs" />
+    <Compile Include="NegOrcamento.cs" />
+    <Compile Include="NegOrcamentoItem.cs" />
+    <Compile Include="NegPedido.cs" />
+    <Compile Include="NegPedidoItem.cs" />
+    <Compile Include="NegPessoa.cs" />
+    <Compile Include="NegProduto.cs" />
+    <Compile Include="NegSegControle.cs" />
+    <Compile Include="NegSegForm.cs" />
+    <Compile Include="NegSegFormControleAcesso.cs" />
+    <Compile Include="NegSegGrupo.cs" />
+    <Compile Include="NegSegGrupoUsuario.cs" />
+    <Compile Include="NegSegMenu.cs" />
+    <Compile Include="NegSituacao.cs" />
+    <Compile Include="NegSituacaoOperacao.cs" />
+    <Compile Include="NegTelefone.cs" />
+    <Compile Include="NegTipoPagamento.cs" />
+    <Compile Include="NegUsuario.cs" />
+    <Compile Include="NegVendedor.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AcessoDados\AcessoDados.csproj">
+      <Project>{df79a12b-09e2-46d7-b83e-de1370844d41}</Project>
+      <Name>AcessoDados</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ObjetoTransferencia\ObjetoTransferencia.csproj">
+      <Project>{e276ee25-9e96-45d3-8a8f-d84ddbcb46a7}</Project>
+      <Name>ObjetoTransferencia</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WINBASE\WINBASE.csproj">
+      <Project>{C1657B19-BB7F-436C-BCB7-B41E09E98E3E}</Project>
+      <Name>WINBASE</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,178 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcessoDados", "AcessoDados\AcessoDados.csproj", "{DF79A12B-09E2-46D7-B83E-DE1370844D41}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C1657B19-BB7F-436C-BCB7-B41E09E98E3E} = {C1657B19-BB7F-436C-BCB7-B41E09E98E3E}
+		{E276EE25-9E96-45D3-8A8F-D84DDBCB46A7} = {E276EE25-9E96-45D3-8A8F-D84DDBCB46A7}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjetoTransferencia", "ObjetoTransferencia\ObjetoTransferencia.csproj", "{E276EE25-9E96-45D3-8A8F-D84DDBCB46A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Negocio", "Negocio\Negocio.csproj", "{B79D6BF6-C3F5-4258-A030-784A38A57C06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Banco", "Banco", "{6D30FC38-1080-4253-B463-79CFD2C53A25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Negocios", "Negocios", "{3A77965A-F6D0-4675-99A2-2380A79B617F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ObTransferencia", "ObTransferencia", "{85585F2F-A797-43DE-AE5F-54F177AA970E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WINBASE", "WINBASE\WINBASE.csproj", "{C1657B19-BB7F-436C-BCB7-B41E09E98E3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MOD001", "MOD001\MOD001.csproj", "{B472E6E2-97EB-410F-8DBA-6F0A01B00616}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MOD002", "MOD002\MOD002.csproj", "{A492F55C-F6A4-4C8B-93E4-A8E3A8BD18BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carregar", "Carregar\Carregar.csproj", "{FDD0D6B6-8320-4986-870C-DF413DC25CEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQLSERVER", "SQLSERVER", "{4E3A9F74-291F-4232-AC13-A0EA2E74AB0E}"
+	ProjectSection(SolutionItems) = preProject
+		backup_04092016.sql = backup_04092016.sql
+		backup_11092016.sql = backup_11092016.sql
+		backup_16102016.sql = backup_16102016.sql
+		backup_16112016.sql = backup_16112016.sql
+		backup_17112016.sql = backup_17112016.sql
+		backup_21082016.sql = backup_21082016.sql
+		backup_27082016.sql = backup_27082016.sql
+		backup_29082016.sql = backup_29082016.sql
+		BACKUPCOMPLETO.sql = BACKUPCOMPLETO.sql
+		INSERTINFORMATION.sql = INSERTINFORMATION.sql
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MOD003", "MOD003\MOD003.csproj", "{CDAB15E6-CA08-4773-AF55-C4B3DA4EE86A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MOD004", "MOD004\MOD004.csproj", "{45FB8EE9-4A9A-47E3-B043-374C30BA6579}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MODULOS", "MODULOS", "{13B4E301-641C-451D-8871-4062F441591B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apoio", "Apoio\Apoio.csproj", "{21FD8142-9594-43B7-9992-1203D5961E21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MODRELATORIO", "MODRELATORIO\MODRELATORIO.csproj", "{6156751A-3206-4065-8F74-8120D989048E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MOD005", "MOD005\MOD005.csproj", "{33F4824E-C773-4CB1-A05C-90D01AD506C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF79A12B-09E2-46D7-B83E-DE1370844D41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF79A12B-09E2-46D7-B83E-DE1370844D41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF79A12B-09E2-46D7-B83E-DE1370844D41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF79A12B-09E2-46D7-B83E-DE1370844D41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E276EE25-9E96-45D3-8A8F-D84DDBCB46A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E276EE25-9E96-45D3-8A8F-D84DDBCB46A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E276EE25-9E96-45D3-8A8F-D84DDBCB46A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E276EE25-9E96-45D3-8A8F-D84DDBCB46A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B79D6BF6-C3F5-4258-A030-784A38A57C06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B79D6BF6-C3F5-4258-A030-784A38A57C06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B79D6BF6-C3F5-4258-A030-784A38A57C06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B79D6BF6-C3F5-4258-A030-784A38A57C06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1657B19-BB7F-436C-BCB7-B41E09E98E3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1657B19-BB7F-436C-BCB7-B41E09E98E3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1657B19-BB7F-436C-BCB7-B41E09E98E3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1657B19-BB7F-436C-BCB7-B41E09E98E3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B472E6E2-97EB-410F-8DBA-6F0A01B00616}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B472E6E2-97EB-410F-8DBA-6F0A01B00616}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B472E6E2-97EB-410F-8DBA-6F0A01B00616}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B472E6E2-97EB-410F-8DBA-6F0A01B00616}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A492F55C-F6A4-4C8B-93E4-A8E3A8BD18BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A492F55C-F6A4-4C8B-93E4-A8E3A8BD18BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A492F55C-F6A4-4C8B-93E4-A8E3A8BD18BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A492F55C-F6A4-4C8B-93E4-A8E3A8BD18BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDD0D6B6-8320-4986-870C-DF413DC25CEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDD0D6B6-8320-4986-870C-DF413DC25CEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDD0D6B6-8320-4986-870C-DF413DC25CEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDD0D6B6-8320-4986-870C-DF413DC25CEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDAB15E6-CA08-4773-AF55-C4B3DA4EE86A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDAB15E6-CA08-4773-AF55-C4B3DA4EE86A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDAB15E6-CA08-4773-AF55-C4B3DA4EE86A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDAB15E6-CA08-4773-AF55-C4B3DA4EE86A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45FB8EE9-4A9A-47E3-B043-374C30BA6579}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45FB8EE9-4A9A-47E3-B043-374C30BA6579}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45FB8EE9-4A9A-47E3-B043-374C30BA6579}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45FB8EE9-4A9A-47E3-B043-374C30BA6579}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21FD8142-9594-43B7-9992-1203D5961E21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21FD8142-9594-43B7-9992-1203D5961E21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21FD8142-9594-43B7-9992-1203D5961E21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21FD8142-9594-43B7-9992-1203D5961E21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6156751A-3206-4065-8F74-8120D989048E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6156751A-3206-4065-8F74-8120D989048E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6156751A-3206-4065-8F74-8120D989048E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6156751A-3206-4065-8F74-8120D989048E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33F4824E-C773-4CB1-A05C-90D01AD506C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33F4824E-C773-4CB1-A05C-90D01AD506C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33F4824E-C773-4CB1-A05C-90D01AD506C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33F4824E-C773-4CB1-A05C-90D01AD506C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DF79A12B-09E2-46D7-B83E-DE1370844D41} = {6D30FC38-1080-4253-B463-79CFD2C53A25}
+		{E276EE25-9E96-45D3-8A8F-D84DDBCB46A7} = {85585F2F-A797-43DE-AE5F-54F177AA970E}
+		{B79D6BF6-C3F5-4258-A030-784A38A57C06} = {3A77965A-F6D0-4675-99A2-2380A79B617F}
+		{C1657B19-BB7F-436C-BCB7-B41E09E98E3E} = {13B4E301-641C-451D-8871-4062F441591B}
+		{B472E6E2-97EB-410F-8DBA-6F0A01B00616} = {13B4E301-641C-451D-8871-4062F441591B}
+		{A492F55C-F6A4-4C8B-93E4-A8E3A8BD18BF} = {13B4E301-641C-451D-8871-4062F441591B}
+		{CDAB15E6-CA08-4773-AF55-C4B3DA4EE86A} = {13B4E301-641C-451D-8871-4062F441591B}
+		{45FB8EE9-4A9A-47E3-B043-374C30BA6579} = {13B4E301-641C-451D-8871-4062F441591B}
+		{6156751A-3206-4065-8F74-8120D989048E} = {13B4E301-641C-451D-8871-4062F441591B}
+		{33F4824E-C773-4CB1-A05C-90D01AD506C4} = {13B4E301-641C-451D-8871-4062F441591B}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 13
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://viniciusmelin.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = AcessoDados\\AcessoDados.csproj
+		SccProjectTopLevelParentUniqueName1 = SlnEstagio.sln
+		SccProjectName1 = AcessoDados
+		SccLocalPath1 = AcessoDados
+		SccProjectUniqueName2 = Apoio\\Apoio.csproj
+		SccProjectName2 = Apoio
+		SccLocalPath2 = Apoio
+		SccProjectUniqueName3 = Carregar\\Carregar.csproj
+		SccProjectName3 = Carregar
+		SccLocalPath3 = Carregar
+		SccProjectUniqueName4 = MOD001\\MOD001.csproj
+		SccProjectTopLevelParentUniqueName4 = SlnEstagio.sln
+		SccProjectName4 = MOD001
+		SccLocalPath4 = MOD001
+		SccProjectUniqueName5 = MOD002\\MOD002.csproj
+		SccProjectTopLevelParentUniqueName5 = SlnEstagio.sln
+		SccProjectName5 = MOD002
+		SccLocalPath5 = MOD002
+		SccProjectUniqueName6 = MOD003\\MOD003.csproj
+		SccProjectTopLevelParentUniqueName6 = SlnEstagio.sln
+		SccProjectName6 = MOD003
+		SccLocalPath6 = MOD003
+		SccProjectUniqueName7 = MOD004\\MOD004.csproj
+		SccProjectTopLevelParentUniqueName7 = SlnEstagio.sln
+		SccProjectName7 = MOD004
+		SccLocalPath7 = MOD004
+		SccProjectUniqueName8 = MOD005\\MOD005.csproj
+		SccProjectTopLevelParentUniqueName8 = SlnEstagio.sln
+		SccProjectName8 = MOD005
+		SccLocalPath8 = MOD005
+		SccProjectUniqueName9 = MODRELATORIO\\MODRELATORIO.csproj
+		SccProjectTopLevelParentUniqueName9 = SlnEstagio.sln
+		SccProjectName9 = MODRELATORIO
+		SccLocalPath9 = MODRELATORIO
+		SccProjectUniqueName10 = Negocio\\Negocio.csproj
+		SccProjectTopLevelParentUniqueName10 = SlnEstagio.sln
+		SccProjectName10 = Negocio
+		SccLocalPath10 = Negocio
+		SccProjectUniqueName11 = ObjetoTransferencia\\ObjetoTransferencia.csproj
+		SccProjectTopLevelParentUniqueName11 = SlnEstagio.sln
+		SccProjectName11 = ObjetoTransferencia
+		SccLocalPath11 = ObjetoTransferencia
+		SccProjectUniqueName12 = WINBASE\\WINBASE.csproj
+		SccProjectTopLevelParentUniqueName12 = SlnEstagio.sln
+		SccProjectName12 = WINBASE
+		SccLocalPath12 = WINBASE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,5 @@
+C:\Users\Vinicius\Documents\estagio\ProjetoEstagio\SlnEstagio\Apoio\bin\Debug\SlnEstagio.Apoio.dll
+C:\Users\Vinicius\Documents\estagio\ProjetoEstagio\SlnEstagio\Apoio\bin\Debug\SlnEstagio.Apoio.pdb
+C:\Users\Vinicius\Documents\estagio\ProjetoEstagio\SlnEstagio\Apoio\obj\Debug\Apoio.csprojResolveAssemblyReference.cache
+C:\Users\Vinicius\Documents\estagio\ProjetoEstagio\SlnEstagio\Apoio\obj\Debug\SlnEstagio.Apoio.dll
+C:\Users\Vinicius\Documents\estagio\ProjetoEstagio\SlnEstagio\Apoio\obj\Debug\SlnEstagio.Apoio.pdb
